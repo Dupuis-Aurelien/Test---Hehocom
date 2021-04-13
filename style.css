@@ -114,6 +114,10 @@ nav ul li a {
     color: #000;
 }
 
+.dropdown-toggle::after {
+    content: "";
+}
+
 
 /* MAIN */
 
