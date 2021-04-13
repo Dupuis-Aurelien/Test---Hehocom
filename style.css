@@ -100,3 +100,63 @@ nav ul li a {
 
 
 /* Carousel */
+
+
+/* Philosophie */
+
+.philosophie {
+    background-color: #edece7;
+    text-align: center;
+}
+
+.philosophie h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.image-philosophie {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.image-philosophie img {
+    height: 200px;
+    width: auto;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.decouvrir {
+    padding: 10px;
+    background-color: #dcd0b7;
+    width: 30%;
+    margin: auto;
+}
+
+.decouvrir a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.decouvrir:hover {
+    border: 2px#dcd0b7 solid;
+    background-color: white;
+    color: #dcd0b7;
+    transition: all 0.3s ease-in-out;
+}
+
+.decouvrir:hover a {
+    color: #dcd0b7;
+    transition: all 0.3s ease-in-out;
+}
