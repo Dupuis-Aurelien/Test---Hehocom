@@ -1,0 +1,102 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: "segoeui";
+}
+
+
+/* HEADER */
+
+header #header-ordinateur {
+    margin: auto;
+}
+
+
+/* un */
+
+header .un {
+    background-color: #9d9080;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.un p {
+    position: relative;
+    text-transform: initial;
+    padding: 10px 0 10px 30px;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    padding-left: 30px;
+    line-height: 1.4;
+    color: #000;
+    font-family: "Sundays";
+}
+
+
+/* Deux */
+
+header .deux {
+    background-color: #edece7;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-around;
+}
+
+.deux .contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+.deux .contact a:first-child {
+    margin-right: 10px;
+}
+
+.deux .contact a:last-child {
+    margin-left: 1em;
+}
+
+.deux .contact a:hover {
+    color: #dcd0b7;
+    transition: all 0.3s ease-in-out;
+}
+
+.deux .atelier img {
+    margin: 0px 150px;
+    height: 100px;
+    width: auto;
+}
+
+
+/* Trois */
+
+header .trois {
+    background-color: #dcd0b7;
+}
+
+.trois nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* MAIN */
+
+
+/* Carousel */
