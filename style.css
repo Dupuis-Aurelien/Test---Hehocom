@@ -99,14 +99,15 @@ nav ul li a {
 /* MAIN */
 
 
-/* Carousel */
+/* Block-1 (Carousel) */
 
 
-/* Philosophie */
+/* Block-2 (Philosophie) */
 
 .philosophie {
     background-color: #edece7;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .philosophie h2 {
@@ -120,6 +121,7 @@ nav ul li a {
     display: flex;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .image-philosophie img {
@@ -137,9 +139,6 @@ nav ul li a {
 }
 
 .decouvrir {
-    padding: 10px;
-    background-color: #dcd0b7;
-    width: 30%;
     margin: auto;
 }
 
@@ -147,6 +146,8 @@ nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: white;
+    background-color: #dcd0b7;
+    padding: 20px;
 }
 
 .decouvrir:hover {
@@ -159,4 +160,180 @@ nav ul li a {
 .decouvrir:hover a {
     color: #dcd0b7;
     transition: all 0.3s ease-in-out;
+}
+
+
+/* Block-3 (Galerie) */
+
+.galerie {
+    background-color: #edece7;
+}
+
+.image-galerie {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.image-galerie div {
+    height: 29.5vw;
+    width: 29.5vw;
+    max-width: 377px;
+    max-height: 377px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie1 {
+    background-image: url("img/galerie1.jpg");
+}
+
+.galerie1:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie2 {
+    background-image: url("img/galerie2.jpg");
+}
+
+.galerie2:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie3 {
+    background-image: url("img/galerie3.jpg");
+}
+
+.galerie3:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie4 {
+    background-image: url("img/galerie4.jpg");
+}
+
+.galerie4:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie5 {
+    background-image: url("img/galerie5.jpg");
+}
+
+.galerie5:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie6 {
+    background-image: url("img/galerie6.jpg");
+}
+
+.galerie6:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.galerie .suite {
+    text-align: center;
+    margin-top: 1%;
+    padding-bottom: 50px;
+}
+
+.galerie .plus {
+    border-radius: 5px;
+    background-color: #000;
+    color: white;
+    padding: 8px;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.galerie .instagram {
+    border-radius: 5px;
+    background-color: #359dff;
+    color: white;
+    padding: 8px;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.galerie .instagram:hover {
+    transition: all .1s ease-in;
+    background-color: #408bd1;
+}
+
+
+/* Block-4 (Derniers produits) */
+
+.produits {
+    background-color: #edece7;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.produits h2 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #9d9080;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    color: #fcfcfc;
+    font-size: 15px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+footer h4 {
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+footer a:hover {
+    color: #000;
+}
+
+.footer-colonnes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-colonnes div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: start;
+}
+
+footer .creation {
+    text-align: center;
 }
