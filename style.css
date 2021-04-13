@@ -37,6 +37,25 @@ header .un {
     font-family: "Sundays";
 }
 
+.un .produit::before {
+    content: url("https://latelierc.shop/wp-content/uploads/2020/03/produits.svg");
+    position: absolute;
+    left: -30px;
+    top: 0;
+    top: 25%;
+    height: 50px;
+    width: 50px;
+}
+
+.un .livraison::before {
+    content: url("https://latelierc.shop/wp-content/uploads/2020/03/livraison.svg");
+    position: absolute;
+    left: -30px;
+    top: 25%;
+    height: 50px;
+    width: 50px;
+}
+
 
 /* Deux */
 
@@ -150,15 +169,10 @@ nav ul li a {
     padding: 20px;
 }
 
-.decouvrir:hover {
-    border: 2px#dcd0b7 solid;
-    background-color: white;
-    color: #dcd0b7;
-    transition: all 0.3s ease-in-out;
-}
-
 .decouvrir:hover a {
     color: #dcd0b7;
+    background-color: white;
+    border: 2px#dcd0b7 solid;
     transition: all 0.3s ease-in-out;
 }
 
