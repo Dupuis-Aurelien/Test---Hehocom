@@ -108,7 +108,7 @@ header .trois {
 nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-size: 12px;
     text-decoration: none;
     color: #000;
@@ -309,6 +309,49 @@ nav ul li a {
     font-weight: 700;
     padding-top: 30px;
     margin-bottom: 50px;
+}
+
+.produits-elements {
+    display: flex;
+}
+
+.produits-elements div {
+    width: 25vw;
+    height: 25vw;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.produit1 {
+    background-image: url(img/produit1A.png);
+}
+
+.produit1:hover {
+    background-image: url(img/produit1B.png);
+}
+
+.produit2 {
+    background-image: url(img/produit2A.jpg);
+}
+
+.produit2:hover {
+    background-image: url(img/produit2B.jpg);
+}
+
+.produit3 {
+    background-image: url(img/produit3A.jpg);
+}
+
+.produit3:hover {
+    background-image: url(img/produit3B.jpg);
+}
+
+.produit4 {
+    background-image: url(img/produit4A.jpg);
+}
+
+.produit4:hover {
+    background-image: url(img/produit4B.jpg);
 }
 
 
